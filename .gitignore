@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+.env/
+
+# Model files
+models/*.pkl
+
+# Datasets (optional)
+dataset/*.csv
+
+# OS files
+.DS_Store
+
+# Streamlit cache
+.streamlit/
+
+# Logs
+*.log

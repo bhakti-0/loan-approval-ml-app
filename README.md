@@ -62,25 +62,3 @@ The system is designed to resemble a real-world loan eligibility assessment pipe
 
 ---
 
-## Project Structure
-
-loan-approval-ml-app/
-│
-├── backend/
-│ ├── main.py # FastAPI application
-│ ├── preprocessing.py # Data preprocessing logic
-│ ├── model.py # Model training and loading
-│ └── init.py
-│
-├── frontend/
-│ └── app.py # Streamlit web interface
-│
-├── models/
-│ └── loan_model.pkl # Saved model file (gitignored)
-│
-├── dataset/
-│ └── train.csv # Dataset (optional, gitignored)
-│
-├── requirements.txt
-├── README.md
-└── .gitignore
